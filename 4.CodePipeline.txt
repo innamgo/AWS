@@ -1,0 +1,5 @@
+1. 파이프라인 설정
+1.1 CodePipeline-Pipelines -> Create pipeline
+   브랜치별로 파이프라인을 설정할 수 있다.
+1.2 CodePipeline-Pipelines-Pipeline : EDIT Click->add action
+  단계별로 액션을 추가할 수 있다.
