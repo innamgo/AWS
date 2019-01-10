@@ -1,0 +1,3 @@
+1. AWS CodeCommit의 브랜치에 대한 푸시 및 병합 제한
+
+https://docs.aws.amazon.com/ko_kr/codecommit/latest/userguide/how-to-conditional-branch.html
