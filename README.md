@@ -1,4 +1,4 @@
-# amazon codestar
+# aws codestar
 1. CodeCommit
 
 2. CodeBuild
@@ -12,3 +12,6 @@
 6. Extensions
 
 7. Project Setting
+
+# aws cloudformation
+1. designer
