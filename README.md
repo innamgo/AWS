@@ -14,4 +14,4 @@
 7. Project Setting
 
 # aws cloudformation
-1. designer
+8. designer
