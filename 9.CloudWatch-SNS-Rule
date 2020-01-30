@@ -1,0 +1,23 @@
+1. CloudWath Event Rule
+{
+  "source": [
+    "aws.glue"
+  ],
+  "detail-type": [
+    "Glue Job State Change"
+  ],
+  "detail": {
+    "state": [
+      "FAILED"
+    ]
+  }
+}
+
+1.1 SNS 입력 변환기
+{"jobName":"$.detail.jobName","source":"$.source","state":"$.detail.state","message":"$.detail.message","account":"$.account"}
+
+"1. 메일 발송 소스 : <source>"
+"2. AWS Account : <account>"
+"3. 작업명 : <jobName>"
+"4. 작업상태 : <state>"
+"5. 결과 메시지 : <message>"
