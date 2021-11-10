@@ -1,3 +1,6 @@
+# aws cli
+1. setting
+
 # aws codestar
 1. CodeCommit
 
