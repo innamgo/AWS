@@ -1,0 +1,25 @@
+역할전환 방식
+1. credentials
+[default]
+aws_access_key_id = A....
+aws_secret_access_key = 8....
+[mzcdsc]
+aws_access_key_id = A...
+aws_secret_access_key = m...
+
+2. config
+[default]
+region = ap-northeast-2
+output = json
+role_arn = arn:aws:iam::11111111:role/DATA
+source_profile = default
+
+[profile mzcdsc]
+region = ap-northeast-2
+source_profile = default
+
+[profile kedev]
+region = ap-northeast-2
+output = json
+role_arn = arn:aws:iam::111111111:role/DEV
+source_profile = default
